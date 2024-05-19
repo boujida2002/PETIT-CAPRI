@@ -10,7 +10,7 @@
   
   
   
-  border-radius: 90px;
+  border-radius: 10px;
 }
 .modal {
   display: none;
@@ -53,8 +53,8 @@
 .thumbnail {
   margin: 10px;
   cursor: pointer;
-  width: 100px; /* Adjust thumbnail size as needed */
-  height: 100px;
+  width: 55px; /* Adjust thumbnail size as needed */
+  height: 50px;
   object-fit: cover; /* Maintain aspect ratio */
 }
 .close:hover,
@@ -109,9 +109,9 @@ body, html {
     margin-top: var(--bs-gutter-y);
 }
 .domin {
-      width: 50px;
+      width: 55px;
       height: 50px;
-      border-radius: 50px;
+      border-radius: 10px;
     }
 
 .menu {
