@@ -18,6 +18,10 @@
     height: 50px;
     object-fit: cover;
 }
+   .dol{
+      color: antiquewhite;
+   }
+   
 *, ::after, ::before {
   box-sizing: unset;
 }
@@ -138,7 +142,8 @@
                                       
               </tr>
               <tr>
-                  <td><img class="thumbnail" src="images/k1.jpg" alt="Thumbnail 1" onclick="openModal(['images/k1.jpg','images/k-1.jpeg','images/k1.jpg'])">
+                                          <td id="td1">30.00 dh  </td>
+                  <td><img class="thumbnail" src="images/k1.jpg" alt="Thumbnail 1" onclick="openModal([{src:'images/k1.jpg'name:'Anchois Marinées', price1:'30.00 dh',price2:' 40.00dh'},{src:'images/k-1.jpeg', name:'Anchois Marinées', price1:'30.00 dh',price2:' 40.00dh'},{src:'images/k1.jpg', name:'Anchois Marinées', price1:'30.00 dh',price2:' 40.00dh'}])">
                  
 
                   </td>
@@ -839,16 +844,22 @@
 
     <!-- Image of location/map -->
     
-</div>
 <div id="myModal" class="modal">
-  <span class="close" onclick="closeModal()">&times;</span>
-  <img class="modal-content" id="modalImg" src="" alt="Modal Image">
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  <!-- Thumbnails container -->
-  <div class="thumbnails"></div>
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg" src="" alt="Modal Image">
+    <div id="modalText">
+       <table>
+          <h3 id="modalName" class="dol"></h3>
+        <h4 id="modalPrice1" class="dol"></h4>
+        <h4 id="modalPrice2" class="dol"></h4>
+       </table>
+        
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="thumbnails"></div>
 </div>
+
 
 <script  src="index.js"></script>
 
