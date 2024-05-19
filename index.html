@@ -143,7 +143,7 @@
               </tr>
               <tr>
                                     
-                  <td><img class="thumbnail" src="images/k1.jpg" alt="Thumbnail 1" onclick="openModal([{src:'images/k1.jpg' , name:'Anchois Marinées', price1:'30.00 dh', price2:' 40.00dh'},{src:'images/k1.jpg' , name:'Anchois Marinées', price1:'30.00 dh', price2:' 40.00dh'},{src:'images/k1.jpg' , name:'Anchois Marinées', price1:'30.00 dh', price2:' 40.00dh'}])">
+                  <td><img class="thumbnail" src="images/k1.jpg" alt="Thumbnail 1" onclick="openModal(['images/k1.jpg' ,'images/k1.jpg' , 'images/k1.jpg'])">
                  
 
                   </td>
@@ -844,25 +844,7 @@
 
     <!-- Image of location/map -->
     
-<div id="myModal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img class="modal-content" id="modalImg" src="" alt="Modal Image">
-    <div id="modalText">
-       <table>
-          <tr><td> <h3 id="modalName" class="dol"></h3></td>
-         
-          <td><h4 id="modalPrice1" class="dol"></h4></td>
-          <td><h4 id="modalPrice2" class="dol"></h4></td>
-          </tr>
-        
-        
-       </table>
-        
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <div class="thumbnails"></div>
-</div>
+
 <div id="myModal" class="modal">
   <span class="close" onclick="closeModal()">&times;</span>
   <img class="modal-content" id="modalImg" src="" alt="Modal Image">
