@@ -41,8 +41,65 @@
 }
 .bg-danger {
   --bs-bg-opacity: 1;
+  background-color: #00000000 !important;
 }
-  .navbar-nav {
+   .row {
+    --bs-gutter-x: 3rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+ .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* Ensure it appears above other content */
+  background-color: black; /* Set background color to black */
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  text-align: center;
+  padding: 10px;
+  flex: 1;
+}
+
+.nav-link {
+  white-space: nowrap; /* Ensure text does not wrap */
+}
+
+/* Media query for screens with max-width of 400px */
+@media (max-width: 400px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-expanded .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Toggle class when clicking on the navbar brand (logo) */
+#GO {
+  cursor: pointer;
+}
+.navbar-nav {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
@@ -58,9 +115,9 @@
     align-content: center;
     align-items: baseline;
 }
-#dod{
+ #dod{
   margin-top: 150px;
-}
+ }
 </style>
 </head>
 <body>
