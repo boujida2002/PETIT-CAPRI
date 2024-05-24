@@ -283,3 +283,25 @@ h6{
     margin-right: auto;
     margin-left: auto;
 }
+ .fixed-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      font-size: 50px;
+    }
+    .fixed-icon img {
+  width: 40px;
+  height: auto;
+  cursor: pointer; /* Remove background */
+}
+#a{
+    color: #fff;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    font-family: "Sedan SC", serif;
+    font-weight: 100;
+    font-style: normal;
+}
