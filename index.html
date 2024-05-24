@@ -42,7 +42,7 @@
 .bg-danger {
   --bs-bg-opacity: 1;
 }
-   .navbar-nav {
+  .navbar-nav {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
@@ -50,14 +50,13 @@
     --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
     --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
     display: flex;
+    flex-direction: row;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    flex-direction: row-reverse;
-    align-content: space-around;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: baseline;
 }
 #dod{
   margin-top: 150px;
