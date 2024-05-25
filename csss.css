@@ -322,15 +322,19 @@ h6{
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            box-sizing: border-box;
         }
-        img {
+ *, *:before, *:after {
+            box-sizing: inherit;
+        }
+  img {
             max-width: 100%;
             height: auto;
         }
-        table {
+  table {
             width: 100%;
             table-layout: fixed;
         }
-        p {
+  p {
             word-wrap: break-word;
         }
