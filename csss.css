@@ -5,6 +5,13 @@
 #td3{
   color:#00000000;
 }
+#p8{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.892);
+  border-radius: 30px;
+
+  text-align: center;
+}
 
 .thumbnail {
   
