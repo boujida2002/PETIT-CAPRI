@@ -318,3 +318,19 @@ h6{
   width: 25%;
   height: 25%;
 }
+  body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+        p {
+            word-wrap: break-word;
+        }
