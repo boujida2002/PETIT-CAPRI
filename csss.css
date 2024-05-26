@@ -19,7 +19,7 @@
   
   
   
-  border-radius: 10px;
+ 
 }
 .modal {
   display: none;
@@ -60,11 +60,11 @@
   
 }
 .thumbnail {
-  margin: 10px;
-  cursor: pointer;
-  width: 55px; /* Adjust thumbnail size as needed */
-  height: 50px;
-  object-fit: cover; /* Maintain aspect ratio */
+   margin: 10px;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 1em;
 }
 .close:hover,
 .close:focus {
