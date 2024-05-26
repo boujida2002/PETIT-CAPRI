@@ -55,7 +55,7 @@
   
 }
 .thumbnail {
-   margin: 10px;
+   margin: 1px;
     width: 5rem;
     height: 5rem;
     object-fit: cover;
@@ -186,6 +186,7 @@ body{
 h1,h2,h3,h5,h6,h7,h8{
   font-family: "Sedan SC", serif;
 }
+tr,td,th{ font-family: "Sedan SC", serif;}
 a {
     color: #fff;
     color: aliceblue;
@@ -282,7 +283,7 @@ h6{
   height: 55%;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 1rem;
+    --bs-gutter-x: 0.3rem;
     --bs-gutter-y: 0;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x)* .5);
