@@ -283,7 +283,7 @@ h6{
   height: 55%;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 0.3rem;
+    --bs-gutter-x: 0rem;
     --bs-gutter-y: 0;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x)* .5);
