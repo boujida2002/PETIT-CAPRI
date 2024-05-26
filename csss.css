@@ -188,6 +188,9 @@ body{
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+h1,h2,h3,h5,h6,h7,h8{
+  font-family: "Sedan SC", serif;
+}
 a {
     color: #fff;
     color: aliceblue;
