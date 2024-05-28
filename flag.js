@@ -13,7 +13,7 @@ setTimeout(showContent, 2000);
 document.addEventListener("DOMContentLoaded", function() {
     const backgroundElement = document.getElementById("image-background");
     const images = [
-        "url('flag/05b0e606-763c-40e4-9822-9ea03340319c.jpg')",
+        "url('flag/1.webpg')",
         "url('flag/05b0e606-763c-40e4-9822-9ea03340319c.jpg')"
      
         // Ajoutez autant d'images que nécessaire
