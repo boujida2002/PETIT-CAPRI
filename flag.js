@@ -13,9 +13,9 @@ setTimeout(showContent, 2000);
 document.addEventListener("DOMContentLoaded", function() {
     const backgroundElement = document.getElementById("image-background");
     const images = [
-        "url('flag/Screenshot 2024-05-27 235601.png')",
+        "url('flag/Screenshot 2024-05-27 235601(1).webp')",
         "url('flag/Screenshot 2024-05-27 235626.webp')",
-        "url('flag/Screenshot 2024-05-27 235657.webp')"
+        "url('flag/Screenshot 2024-05-27 235657(1).webp')"
         // Ajoutez autant d'images que nécessaire
     ];
     let currentIndex = 0;
