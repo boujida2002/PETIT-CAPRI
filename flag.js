@@ -4,7 +4,7 @@ function hideOverlay() {
 
 function showContent() {
     document.getElementById('overlay').classList.add('visible');
-    document.getElementById('content').classList.add('visible');
+    document.getElementById('image-background').classList.add('visible');
 }
 
 setTimeout(showContent, 2000);
