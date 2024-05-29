@@ -26,6 +26,7 @@
   height: 50%;
   overflow: auto;
   background-color: #000000 ;
+  border-radius: 15px white solid;
 }
 .modal-content {
   margin: auto;
