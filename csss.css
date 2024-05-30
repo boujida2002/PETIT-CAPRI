@@ -383,3 +383,59 @@ h6{
         p {
             word-wrap: break-word;
         }
+//////////////////////////////
+  #plo {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      height: 100px;
+      width: 100px;
+      background: #00265100;
+      text-align: center;
+      border-radius: 50%;
+      z-index: 1000;
+    }
+    .fa-wechat {
+      margin-top: 25px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+      transition: 0.7s;
+    }
+    .menu_group {
+      position: fixed;
+      bottom: 30px;
+    right: 72px;
+    height: 94px;
+    width: 26px;
+      background: #785ada00;
+      border-radius: 50%;
+      z-index: -0;
+      transform: scale(0);
+      transition: 0.7s;
+    }
+    .menu_group a {
+      position: absolute;
+      font-size: 12px;
+      color: #364f6b00;
+      transition: color 0.7s;
+      padding:5px ;
+    }
+    .menu_group a:hover {
+      color: #2c3e5000;
+      background-color: aliceblue;
+      font-size: -1px;
+    }
+    .menu_group a:nth-child(1) { top: 16px; left: 23px; }
+    .menu_group a:nth-child(2) { top: 16px; left: 3px; }
+    .menu_group a:nth-child(3) { top: 34px; left: -12px; }
+    .menu_group a:nth-child(4) { top: 53px; left: -4px; }
+    .menu_group a:nth-child(5) { top: 58px; left: 10px; }
+    .menu_group a:nth-child(6) { top: 23px; left: 12px; }
+    #amo {
+      height: 15px;
+    }
+    #amo:hover{
+      font-size: 1px;
+      background-color: white;
+    }
