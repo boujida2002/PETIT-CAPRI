@@ -11,12 +11,17 @@
   color:#00000000;
 }
 #p8 {
-    color: black;
-    background-color: rgb(254 253 247 / 89%);
-    border-radius: 50px;
+    color: white;
+    background-color: rgb(35 35 35 / 89%);
+    border-radius: 90px;
+    border: 2px #795a06 outset;
     padding: 10px;
     margin: 10px;
+    font-size: 15px;
+    height: 10px;
+    top: px;
     text-align: center;
+    margin-top: px;
 }
 }
 
