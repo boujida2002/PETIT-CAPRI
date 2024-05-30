@@ -45,3 +45,19 @@ var modalIndex = 0;
       });
     }
 
+///
+  var menuew = document.getElementById('menuew');
+  var plus = document.getElementById('plus');
+  var abc = 0;
+
+  function expand() {
+    if (abc == 0) {
+      menuew.style.transform = "scale(3)";
+      plus.style.transform = "rotate(360deg)";
+      abc = 1;
+    } else {
+      menuew.style.transform = "scale(0)";
+      plus.style.transform = "rotate(0deg)";
+      abc = 0;
+    }
+  }
