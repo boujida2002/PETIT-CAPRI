@@ -33,16 +33,16 @@
 }
 .close-button {
     position: absolute;
-    top: 3px;
-    right: 60px;
-    background-color: #f44336;
-    color: rgb(255, 255, 255);
+    top: 1px;
+    right: 70px;
+    background-color: #ffffff00;
+    color: rgb(255 244 244);
     border: none;
-    padding: 5px 10px;
+    padding: 5px 16px;
     cursor: pointer;
-    border-radius: 50%;
-    font-size: 16px;
-    line-height: 20px;
+    border-radius: 70%;
+    font-size: 25px;
+    line-height: 2px;
 }
 .close-button:hover {
     background-color: #d32f2f;
